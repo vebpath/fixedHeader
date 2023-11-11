@@ -1,0 +1,49 @@
+@import url("//fonts.googleapis.com/css?family=Google+Sans:400,500,600,700");
+@import url("//fonts.googleapis.com/css?family=Roboto+Mono:400,500");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #303134;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+
+.wrapper{
+display: flex;
+}
+
+.wrapper a{
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+}
+.wrapper a:hover{
+  background-color: #4e4f52;
+}
+main{
+  padding: 10px;
+  margin-top: 50px;
+}
+h2{
+  margin: 10px 0;
+}
